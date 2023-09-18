@@ -1,14 +1,3 @@
-guestList = {
-    "02:97:CA:4B:A3:CD+31431678AC4426C969EB5C8D4FD3EABB",
-
-}
-countBotIP = 3
-proxyer =  {
-    "123.0.0.1:8080:sdfdf:sdfsf",
-    "123.0.0.1:8080:sdfdf:sdfsf",
-    "123.0.0.1:8080:sdfdf:sdfsf",
-}
-useSocks = false
 function getSocks(v)
     local hostname, port, username, password = v:match("([^:]+):([^:]+):([^:]+):([^:]+)")
     Proxy = {
